@@ -1,0 +1,45 @@
+body {
+    background: url(img/fundo.png);
+}
+
+.img-camapanha {
+    border: 10px solid #c3c3ae;
+}
+
+.menu {
+    color: rgb(115, 115, 165);
+    font-size: 20px;
+    text-align: left;
+    padding: 30px;
+    background: rgb(200, 145, 73);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 20px;
+}
+
+
+
+.sobre {
+    color: rgb(238, 168, 77);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.conteudo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer {
+    text-align: center;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    .menu {
+        text-align: center;
+        justify-content: center;
+    }
+}
